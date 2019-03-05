@@ -1,0 +1,54 @@
+{
+    "name": "csacodebasicjs",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "6c59fd5f-9a1a-455e-a2d3-16fff41ae6e1",
+            "resourceGroup": "csabots",
+            "serviceName": "csacodeechojs",
+            "name": "csacodeechojs",
+            "id": "1",
+            "appId": "6a8ded98-d475-4f3b-8fe8-821f85a6cdce"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=csacodeechojs8703;AccountKey=OhaSKuV1IncvZEsOLRFHD3Gm3CsfJ0ZUc0OCCnxMl3ofwg6t+TY8PYlAykCd0p44ZgleuPbE2CN4ZRhJBGylvA==;",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "6c59fd5f-9a1a-455e-a2d3-16fff41ae6e1",
+            "resourceGroup": "csabots",
+            "serviceName": "csacodeechojs8703",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "6a8ded98-d475-4f3b-8fe8-821f85a6cdce",
+            "appPassword": "P(P.VMEu|Ju2sXdkzLUf+MmsTN",
+            "endpoint": "https://csacodeechojs.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "0f314fd8-19a5-4231-8dbc-dfa197c86818",
+            "applicationId": "70dc1c73-d6f5-4b92-887b-93fb105ab512",
+            "apiKeys": {},
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "6c59fd5f-9a1a-455e-a2d3-16fff41ae6e1",
+            "resourceGroup": "csabots",
+            "serviceName": "csacodeechojszipvi4",
+            "id": "5"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
